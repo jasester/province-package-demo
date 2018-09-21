@@ -1,0 +1,26 @@
+{
+    "name": "hnndy/province-package-demo",
+    "description": "Province demo in laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jasester",
+            "email": "jasester@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hnndy\\Province\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hnndy\\Province\\RegionServiceProvider"
+            ]
+        }
+    }
+}
